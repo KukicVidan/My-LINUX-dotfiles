@@ -193,10 +193,10 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
   #################################[ os_icon: os identifier ]##################################
   # OS identifier color.
-  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=#B9433F
+  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=254
   typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND=#0B272D
   # Custom icon.
-  # typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='⭐'
+   typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION='🌸'
 
   ################################[ prompt_char: prompt symbol ]################################
   # Transparent background.
@@ -223,7 +223,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
   ##################################[ dir: current directory ]##################################
   # Current directory background color.
-  typeset -g POWERLEVEL9K_DIR_BACKGROUND=#B9433F
+  typeset -g POWERLEVEL9K_DIR_BACKGROUND=#097B7C
   # Default current directory foreground color.
   typeset -g POWERLEVEL9K_DIR_FOREGROUND=254
   # If directory is too long, shorten some of its segments to the shortest possible unique
